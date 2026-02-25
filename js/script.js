@@ -111,7 +111,7 @@ function jbs() {
     emptyMessage.classList.add("hidden");
   }
 
-  (document.getElementById("tabCount").innerText = filtered.length) + " jobs";
+  document.getElementById("tabCount").innerText = filtered.length + " jobs";
 
   filtered.forEach((job) => {
     let badgeText = "NOT APPLIED";
